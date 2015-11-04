@@ -1,1 +1,1 @@
-# docker-mongodb
+# docker-mediawiki
