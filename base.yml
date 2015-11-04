@@ -1,0 +1,3 @@
+mediawiki:
+  restart: always
+  image: simplyintricate/mediawiki:latest

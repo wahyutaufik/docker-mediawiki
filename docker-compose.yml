@@ -1,0 +1,9 @@
+mediawiki:
+  extends:
+    file: base.yml
+    service: mediawiki
+  volumes:
+    - ./srv/mediawiki/html/LocalSettings.php:/usr/share/nginx/html/LocalSettings.php
+  ports:
+    - 8084:80
+    - 443:443
