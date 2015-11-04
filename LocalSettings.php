@@ -30,7 +30,7 @@ $wgScriptPath = "";
 $wgScriptExtension = ".php";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://localhost:8084";
+$wgServer = "http://192.168.1.10:8082";
 
 ## The relative URL path to the skins directory
 $wgStylePath = "$wgScriptPath/skins";
