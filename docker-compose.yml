@@ -4,6 +4,7 @@ mediawiki:
     service: mediawiki
   volumes:
     - ./srv/mediawiki/html/LocalSettings.php:/usr/share/nginx/html/LocalSettings.php
+    - ./srv/mediawiki/extensions:/usr/share/nginx/html/extensions
   ports:
     - 8084:80
     - 443:443
